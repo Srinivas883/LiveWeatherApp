@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blackbackground{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.greenbackground{
+    background-color: #145dcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.inputbox{
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.178);
+    border: white solid 1px;
+    width: 85%;
+}
+
+.inputbox::placeholder{
+    text-align: center;
+    color: black;
+    
+}
+
+.getreportbtn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.weatherimg{
+    background-color: rgba(255, 255, 255, 0.377);
+    margin: 10px 0;
+}
